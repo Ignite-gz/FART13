@@ -25,9 +25,18 @@ adb shell setprop debug.runtime.profile.delay_ms 10000 # 这个可以不写，�
 
 这个时候你会得到一个.rpr的文件
 
-然后使用我这里提供的tools/runtime_profile_records.py，python runtime_profile_records.py xxxxx.rpr --extract mydexdirectory --dex-only --summary
+然后使用我这里提供的tools/runtime_profile_records.py
 
-一般都是使用这三个选项，可以python runtime_profile_records.py --help看看选项是干什么的
+
+```shell
+python runtime_profile_records.py xxxxx.rpr --extract mydexdirectory --dex-only --summary
+```
+
+一般都是使用这三个选项
+
+```shell
+python runtime_profile_records.py --help  # 这样可以看看选项到底有什么作用
+```
 
 执行修复脚本之后就会得到.dex文件，然后就可以用jadx打开了（有些壳会抹去文件头，这里的python脚本在修复时也会修复文件头）
 
