@@ -25,14 +25,14 @@ adb shell setprop debug.runtime.profile.delay_ms 10000 # 这个可以不写，�
 
 这个时候你会得到一个.rpr的文件
 
-然后使用我这里提供的tools/runtime_profile_records.py
+然后使用我这里提供的tools/runtime_profile_records.py，执行
 
 
 ```shell
-python runtime_profile_records.py xxxxx.rpr --extract mydexdirectory --dex-only --summary
+python runtime_profile_records.py xxxxx.rpr --extract mydexdirectory --dex-only --summary  # 一般都是使用这三个选项
 ```
 
-一般都是使用这三个选项
+如果想知道有哪些选项或者是选项都有什么作用，那么可以执行
 
 ```shell
 python runtime_profile_records.py --help  # 这样可以看看选项到底有什么作用
