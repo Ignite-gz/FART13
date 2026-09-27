@@ -59,12 +59,14 @@ python runtime_profile_records.py --help  # 这样可以看看选项到底有什
 
 <img width="1089" height="325" alt="屏幕截图 2026-09-01 223037" src="https://github.com/user-attachments/assets/68de49e5-cbf5-4e86-82c5-08b0cf7eb9f7" />
 
-直接把它拉到本地，然后执行tools中的python脚本
+直接把它拉到本地，然后执行 tools 中的 python 脚本。
 
 <img width="962" height="100" alt="屏幕截图 2026-09-01 223420" src="https://github.com/user-attachments/assets/92772ae0-887e-452e-892b-ece78217a036" />
 
-然后用jadx打开这些dex就可以了
+然后用 jadx 打开这些 dex 就可以了。
 
 <img width="1139" height="753" alt="屏幕截图 2026-09-01 223635" src="https://github.com/user-attachments/assets/e50f457f-971e-4618-addf-ecada857bfb9" />
 
-可以看到效果还是比较好的，当然还有一些特殊的方法我没有去处理，以后有时间持续改进的
+可以看到效果还是比较好的，当然还有一些特殊的方法我没有去处理，以后有时间持续改进的。
+
+项目本身肯定还是会存在很多 bug 和可以改进的点的，可以在 issues 中提出，也可以 QQ 联系我 3501851346 以找出 bug 改进项目。
